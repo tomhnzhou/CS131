@@ -1,0 +1,48 @@
+nThreads: 8	nSwap: 100000	array_size: 10		array_sum: 42
+Threads average 7025.09 ns/transition
+nThreads: 8	nSwap: 100000	array_size: 10		array_sum: 96
+Threads average 7909.66 ns/transition
+nThreads: 8	nSwap: 100000	array_size: 50		array_sum: 276
+Threads average 7018.08 ns/transition
+nThreads: 8	nSwap: 100000	array_size: 50		array_sum: 532
+Threads average 7296.52 ns/transition
+nThreads: 8	nSwap: 1000000	array_size: 10		array_sum: 53
+Threads average 748.491 ns/transition
+nThreads: 8	nSwap: 1000000	array_size: 10		array_sum: 113
+Threads average 1177.84 ns/transition
+nThreads: 8	nSwap: 1000000	array_size: 50		array_sum: 244
+Threads average 1124.53 ns/transition
+nThreads: 8	nSwap: 1000000	array_size: 50		array_sum: 547
+Threads average 744.909 ns/transition
+nThreads: 16	nSwap: 100000	array_size: 10		array_sum: 40
+Threads average 25328.2 ns/transition
+nThreads: 16	nSwap: 100000	array_size: 10		array_sum: 156
+Threads average 26471.9 ns/transition
+nThreads: 16	nSwap: 100000	array_size: 50		array_sum: 291
+Threads average 25306.7 ns/transition
+nThreads: 16	nSwap: 100000	array_size: 50		array_sum: 530
+Threads average 26691.9 ns/transition
+nThreads: 16	nSwap: 1000000	array_size: 10		array_sum: 53
+Threads average 2664.43 ns/transition
+nThreads: 16	nSwap: 1000000	array_size: 10		array_sum: 139
+Threads average 2703.25 ns/transition
+nThreads: 16	nSwap: 1000000	array_size: 50		array_sum: 275
+Threads average 2690.24 ns/transition
+nThreads: 16	nSwap: 1000000	array_size: 50		array_sum: 489
+Threads average 2381.49 ns/transition
+nThreads: 32	nSwap: 100000	array_size: 10		array_sum: 39
+Threads average 101780 ns/transition
+nThreads: 32	nSwap: 100000	array_size: 10		array_sum: 140
+Threads average 101786 ns/transition
+nThreads: 32	nSwap: 100000	array_size: 50		array_sum: 286
+Threads average 102252 ns/transition
+nThreads: 32	nSwap: 100000	array_size: 50		array_sum: 532
+Threads average 104176 ns/transition
+nThreads: 32	nSwap: 1000000	array_size: 10		array_sum: 52
+Threads average 10169.9 ns/transition
+nThreads: 32	nSwap: 1000000	array_size: 10		array_sum: 105
+Threads average 11349.2 ns/transition
+nThreads: 32	nSwap: 1000000	array_size: 50		array_sum: 297
+Threads average 11007.0 ns/transition
+nThreads: 32	nSwap: 1000000	array_size: 50		array_sum: 585
+Threads average 10156.3 ns/transition

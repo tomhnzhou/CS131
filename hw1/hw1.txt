@@ -1,0 +1,46 @@
+subset a b 
+//============
+I wrote a helper function subset_aux a b, which presumes that a 
+is an element instead of a list. In this case, I can iterate through 
+list a and call subset_aux with each element in a and b. 
+
+equal_sets a b
+//============ 
+a and b are equal sets iff 'a' is a subset of b and b is a 
+subset of a
+
+set_union a b
+//============
+I wrote a helper function set_uniq, which removes all duplicates in 
+a list. Then set_union can simply combine the two lists and remove all 
+duplicates with set_uniq. 
+
+set_intersection a b
+//==================
+Basic idea: iterate through the first list: 
+If the element is in the second list, then attach the element to the result. 
+If not, recursively call the function with the rest of the first list. 
+
+set_diff a b
+//===========
+Basic idea: similar to set_intersection. Iterate through the first list:
+If the element is in the second, then recursively call the function with 
+rest of the list
+If not, attach the element to the result and recursively call with rest of the 
+list
+
+filter_blind_alleys 
+//====================
+Basic Idea: 
+1. First, get a list of symbols (either terminals or nonterminals) that is 
+   "good", that is, able to lead to a terminal. This can be done by running 
+   through the list of rules again and again, until no symbol can be added 
+   to the "good" list.
+2. Next, iterate through the list of rules again. 
+   For a nonterminal, if it leads to a "bad" symbol, this rule must be filtered. 
+   Otherwise, this rule is good and should be attached to the returned list. 
+   
+RESULT:
+//++++++++++++++
+My program passes all sample tests posted online as well as my own 
+test cases, which are included in hw1test.ml.

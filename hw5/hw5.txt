@@ -1,0 +1,16 @@
+
+
+The basic idea of the code is almost the same as the given 
+solution of the previous homework. There is only one difference: 
+instead of using the accpetor, we use call/cc to "record" the current 
+context, and backtrack later if needed. 
+
+Therefore, I changed every instance of acceptor to a call/cc. 
+The argument of call/cc is a procedure that takes the continuation 
+as its only argument. It pass #f to the continuation (so that 
+the code would continue to check the second argument of or),
+ and attach the backtracker to the suffix (frag). 
+
+The delimited continuation in Racket does not have the escape 
+functionality. Therefore, if the code wants to use the composable 
+continuation, some sort of escaper should be added. 
